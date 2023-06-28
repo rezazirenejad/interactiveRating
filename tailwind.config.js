@@ -4,6 +4,7 @@ module.exports = {
     theme: {
         colors:{
             'orange': 'hsl(25, 97%, 53%)',
+            'orangeA': 'rgba(251,116,19,0.06)',
             'white': 'hsl(0, 0%, 100%)',
             'lightGrey': 'hsl(217, 12%, 63%)',
             'mediumGrey': 'hsl(216, 12%, 54%)',
