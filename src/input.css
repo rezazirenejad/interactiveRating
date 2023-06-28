@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .rating-btn-comp{
+        @apply h-11 w-12 shadow-sm cursor-pointer bg-mediumGreyA rounded-full text-lightGrey flex justify-center items-center hover:bg-lightGrey hover:text-white transition delay-100 font-semibold
+
+    }
+};
+
+@layer base {
+    @font-face{
+        font-family: 'Overpass-Regular';
+        src: url('./fonts/Overpass-Regular.ttf') format("ttf");
+    }
+}
