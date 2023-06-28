@@ -4,7 +4,7 @@
 
 @layer components{
     .rating-btn-comp{
-        @apply h-11 w-12 shadow-sm cursor-pointer bg-mediumGreyA rounded-full text-lightGrey flex justify-center items-center hover:bg-lightGrey hover:text-white transition delay-100 font-semibold
+        @apply h-11 w-12 shadow-sm cursor-pointer bg-mediumGreyA rounded-full text-lightGrey flex justify-center items-center lg:hover:bg-lightGrey lg:hover:text-white transition delay-100 font-semibold
 
     }
 };

@@ -587,11 +587,13 @@ video {
   transition-delay: 100ms;
 }
 
-.rating-btn-comp:hover {
-  --tw-bg-opacity: 1;
-  background-color: hsl(217 12% 63% / var(--tw-bg-opacity));
-  --tw-text-opacity: 1;
-  color: hsl(0 0% 100% / var(--tw-text-opacity));
+@media (min-width: 1024px) {
+  .rating-btn-comp:hover {
+    --tw-bg-opacity: 1;
+    background-color: hsl(217 12% 63% / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: hsl(0 0% 100% / var(--tw-text-opacity));
+  }
 }
 
 .mt-3 {
